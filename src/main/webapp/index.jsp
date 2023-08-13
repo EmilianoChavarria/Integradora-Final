@@ -38,34 +38,9 @@
         <div>
             <button id="login" type="submit" class="btn bg-primary text-white w-100 mt-4 fw-semibold">Iniciar sesión</button>
         </div>
-        <div class="d-flex gap-1 justify-content-center mt-3">
-            <a href="#" class="text-decoration-none text-dark fw-semibold" data-bs-toggle="modal" data-bs-target="#forgotPasswordModal">¿Has olvidado tu contraseña?</a>
-        </div>
+
     </form>
 
-
-    <!-- Modal -->
-    <div class="modal fade" id="forgotPasswordModal" tabindex="-1" aria-labelledby="forgotPasswordModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="forgotPasswordModalLabel">Recuperar contraseña</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form id="forgot-password-form">
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Correo electrónico</label>
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-primary">Enviar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 
