@@ -168,7 +168,7 @@ public class ServletUser extends HttpServlet {
                 }
                 break;
             case "/user/update":
-                // Retrieve the necessary parameters from the request
+
                 String streets = req.getParameter("upstreet");
                 String neighborhoods = req.getParameter("upneighborhood");
                 String apartment_numbers = req.getParameter("upapartment_number");
@@ -250,7 +250,7 @@ public class ServletUser extends HttpServlet {
             case "/user/delete":
                 try {
                     Long id_user = parseLong(req.getParameter("id_user"));
-                    // Validar que el id_user no sea el del usuario con id 1 (si lo deseas)
+
                     if (id_user == 1) {
                         throw new Exception("No se permite eliminar al usuario con id 1.");
                     }

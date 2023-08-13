@@ -73,7 +73,7 @@ public class ServletCaja extends HttpServlet {
                     Vehicle vehicle = new Vehicle();
                     vehicle.setId_vehicle(Long.parseLong(id_vehicle));
 
-                    // Crear una instancia de Order con los datos recibidos
+
                     Order order = new Order();
                     order.setVehicle(vehicle);
                     order.setMileage(mileage);
