@@ -17,7 +17,7 @@
     <div class="row">
         <div class="col ms-5" style="margin-top: 180px;">
             <div class=" h1 ">
-                Bienvenido Cliente
+                Bienvenido Mecanico
                 <br>
                 ¡Mantén tu vehículo en su mejor estado con nuestro servicio de excelencia!
             </div>
