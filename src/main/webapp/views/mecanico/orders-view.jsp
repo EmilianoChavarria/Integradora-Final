@@ -241,7 +241,7 @@
                                 <div class="col">
                                     <select id="id_product" name="id_product" class="form-select"
                                             aria-label="Default select example" required style="height: 60px">
-                                        <option selected>Elegir producto:</option>
+                                        <option selected>Elegir paquete:</option>
                                         <s:forEach items="${packageView}" var="packageList">
                                             <option value="${packageList.idProductPackage}">
                                                     ${packageList.package_name} (${packageList.package_type}) -
