@@ -460,7 +460,7 @@
                                 </button>
                                 <button type="submit" class="btn btn-primary" id="updateVehicleBtn"
                                         onclick="sendFormUpdate (event)">
-                                    Agregar
+                                    Actualizar
                                 </button>
                             </div>
 
